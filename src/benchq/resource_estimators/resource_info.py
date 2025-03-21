@@ -7,9 +7,9 @@ from dataclasses import dataclass, field
 from decimal import Decimal
 from typing import Generic, Optional, Tuple, TypeVar, Union
 
-from benchq.compilation.graph_states.compiled_data_structures import (
-    CompiledAlgorithmImplementation,
-)
+# from benchq.compilation.graph_states.compiled_data_structures import (
+#     CompiledAlgorithmImplementation,
+# )
 
 from ..visualization_tools.resource_allocation import QECCycleAllocation
 
@@ -173,7 +173,7 @@ class ResourceInfo(Generic[TExtra]):
 class GraphExtra:
     """Extra info relating to resource estimation using Graph State Compilation."""
 
-    implementation: CompiledAlgorithmImplementation
+    # implementation: CompiledAlgorithmImplementation
 
 
 # Alias for type of resource info returned by GraphResourceEstimator
