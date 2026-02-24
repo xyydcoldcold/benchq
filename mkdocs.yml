@@ -1,3 +1,15 @@
-site_name: BenchQ Docs Mirror
+site_name: BenchQ Mirror
+theme:
+  name: material
+plugins:
+  - search
 nav:
   - Home: index.md
+  - Skeleton:
+      - Repo Structure: skeleton/repo-structure.md
+      - Entry Points: skeleton/entry-points.md
+      - Examples Inventory: skeleton/examples.md
+      - API Inventory: skeleton/api-inventory.md
+  - Execution Flow: execution-flow.md
+  - Module Map: module-map/index.md
+  - Use Cases: use-cases/index.md
