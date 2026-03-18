@@ -1,6 +1,6 @@
 site_name: BenchQ
 theme:
-  name: mkdocs
+  name: material
 plugins:
   - search
 nav:
