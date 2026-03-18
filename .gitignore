@@ -130,6 +130,7 @@ chromedriver
 
 .DS_Store
 .vscode/
+.claude/
 
 # Generated files
 avas_localized_orbitals.molden
